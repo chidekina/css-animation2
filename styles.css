@@ -1,0 +1,59 @@
+*{
+    height: auto;
+    width: auto;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: 100vh;
+    width: 100%;
+    gap: 10px;
+
+    & h3{
+        color: rgb(255, 255, 0);
+        font-size: 40px;
+    }
+    & h4{
+        color: coral;
+        font-size: 30px;
+        visibility: hidden;
+    }
+
+    & h2{
+        color: rgb(206, 0, 0);
+        font-size: 50px;
+        visibility: hidden;
+    }
+    
+    & h1{
+        color: white;
+        font-size: 70px;
+        visibility: hidden;
+    }
+}
+
+.animate__hinge{
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+.animate__flipInX{
+    animation-delay: 2s;
+    animation-duration: 4s;
+}
+
+.animate__fadeInDown{
+    animation-delay: 3s;
+    animation-duration: 2s;
+}
+
+.animate__backInDown{
+    animation-delay: 5s;
+    animation-duration: 3s;
+}
